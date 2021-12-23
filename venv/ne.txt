@@ -1,1 +1,1 @@
-
+create virtual environment and then install all python library on your virtual environment then use this code for recommending movie.
