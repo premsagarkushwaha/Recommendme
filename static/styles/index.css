@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,600;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap');
+
+
+.navbar .navbar-brand span{
+
+    color: rgb(248, 162, 3);
+    
+    font-size: 49px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+    
+    font-weight: 900;
+
+}
+.navbar .collapse a{
+    font-size: 22px;
+}
+.hero .row .form-label{
+    color: cadetblue;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+/* .hero .row .file_submit{
+    margin-top: 20px;
+    border-radius: 20px;
+} */
+
+.hero .row .file_submit {
+    background:#0066A2;
+     color:white;
+     border-style:outset;
+     border-color:#0066A2;
+     height:50px;
+     width:100px;
+     font-family: 'Roboto', sans-serif;
+     text-shadow:none; /* Green */
+     border-radius: 20px;
+     margin-top: 20px;
+    transition-duration: 0.2s;
+  }
+  
+  .hero .row .file_submit:hover {
+    background-color:rgb(36, 144, 187); /* Green */
+    color: rgb(6, 51, 65);
+    font-weight: 900;
+    box-shadow: tomato;
+    
+    transform: translateX(-10);
+
+  }
+
+  .about .about-info a{
+      /* background-color: turquoise; */
+      border-width: 2px;
+      border-color: rgb(88, 59, 5);
+
+  }
+  .about .about-info h3 {
+    /* background-color: turquoise; */
+    color: rgb(177, 152, 43);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+}
+  .about .about-info h3 span{
+    /* background-color: turquoise; */
+    color: rgb(100, 216, 84);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+
+}
