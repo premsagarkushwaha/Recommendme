@@ -14,6 +14,7 @@ import re
 import numpy as np
 import contractions
 nltk.download("stopwords")
+nltk.download('punkt')
 stop_words = nltk.corpus.stopwords.words('english')
 def normalize_document(doc):
     doc = re.sub(r'[^a-zA-Z0-9\s]', '', doc, re.I|re.A)
