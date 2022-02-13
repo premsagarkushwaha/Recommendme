@@ -1,6 +1,7 @@
 from flask import Flask,render_template,request
 
 import nltk
+nltk.download('stopwords')
 import pandas as pd
 df = pd.read_csv('tmdb_5000_movies.csv')
 df = df[['title', 'tagline', 'overview', 'popularity']]
