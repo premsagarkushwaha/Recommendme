@@ -2,6 +2,7 @@ from flask import Flask,render_template,request
 
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
 import pandas as pd
 df = pd.read_csv('tmdb_5000_movies.csv')
 df = df[['title', 'tagline', 'overview', 'popularity']]
@@ -63,7 +64,7 @@ def result():
         nl = movie_recommender(movie_title=name)
 
         lists = list(nl)
-        return render_template('index2.htmlac',name = lists)
+        return render_template('index2.html',name = lists)
 
 if __name__ == "__main__":
     app.run(debug=True,port=8000)
